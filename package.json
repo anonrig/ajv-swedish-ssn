@@ -1,0 +1,28 @@
+{
+  "name": "ajv-swedish-ssn",
+  "version": "0.1.0",
+  "description": "Ajv validation for Swedish SSN",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ajv", "swedish", "ssn"],
+  "author": "Yagiz Nizipli <yagiz@nizipli.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/anonrig/ajv-swedish-ssn",
+  "bugs": {
+    "url": "https://github.com/anonrig/ajv-swedish-ssn/issues",
+    "email": "yagiz@nizipli.com"
+  },
+  "devDependencies": {
+    "ajv": "^8.6.2"
+  },
+  "peerDependencies": {
+    "ajv": "^8.6.2"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  }
+}
